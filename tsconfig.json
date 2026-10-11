@@ -1,0 +1,11 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        "noEmit": true,
+        "baseUrl": ".",
+        "paths": {
+            "@starframe-dev/ts-mocks-*": ["packages/*/src/index.ts"]
+        }
+    },
+    "include": ["packages/*/src", "vitest.shared.ts"]
+}
