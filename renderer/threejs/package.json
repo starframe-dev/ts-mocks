@@ -1,0 +1,20 @@
+{
+  "name": "@human-horizon/threejs-mock",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.170.0",
+    "three": "^0.170.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}
